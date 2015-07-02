@@ -15,6 +15,8 @@
 		24C203481B457639000C6D2E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24C203461B457639000C6D2E /* LaunchScreen.storyboard */; };
 		24C203531B457639000C6D2E /* CustomTransitionCollectionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24C203521B457639000C6D2E /* CustomTransitionCollectionTests.swift */; };
 		24C2035E1B457639000C6D2E /* CustomTransitionCollectionUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24C2035D1B457639000C6D2E /* CustomTransitionCollectionUITests.swift */; };
+		24C2036C1B4576A2000C6D2E /* NextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24C2036B1B4576A2000C6D2E /* NextViewController.swift */; };
+		24C2036E1B45776D000C6D2E /* CustomAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24C2036D1B45776D000C6D2E /* CustomAnimator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		24C203591B457639000C6D2E /* CustomTransitionCollectionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomTransitionCollectionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		24C2035D1B457639000C6D2E /* CustomTransitionCollectionUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTransitionCollectionUITests.swift; sourceTree = "<group>"; };
 		24C2035F1B457639000C6D2E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		24C2036B1B4576A2000C6D2E /* NextViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NextViewController.swift; sourceTree = "<group>"; };
+		24C2036D1B45776D000C6D2E /* CustomAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomAnimator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,13 +103,14 @@
 		24C203391B457639000C6D2E /* CustomTransitionCollection */ = {
 			isa = PBXGroup;
 			children = (
+				24C203701B4577EB000C6D2E /* Animator */,
 				24C2033A1B457639000C6D2E /* AppDelegate.swift */,
-				24C2033C1B457639000C6D2E /* ViewController.swift */,
-				24C2033E1B457639000C6D2E /* Main.storyboard */,
 				24C203441B457639000C6D2E /* Assets.xcassets */,
-				24C203461B457639000C6D2E /* LaunchScreen.storyboard */,
-				24C203491B457639000C6D2E /* Info.plist */,
+				24C2036F1B4577E2000C6D2E /* Controller */,
 				24C203411B457639000C6D2E /* CustomTransitionCollection.xcdatamodeld */,
+				24C203491B457639000C6D2E /* Info.plist */,
+				24C203461B457639000C6D2E /* LaunchScreen.storyboard */,
+				24C2033E1B457639000C6D2E /* Main.storyboard */,
 			);
 			path = CustomTransitionCollection;
 			sourceTree = "<group>";
@@ -126,6 +131,23 @@
 				24C2035F1B457639000C6D2E /* Info.plist */,
 			);
 			path = CustomTransitionCollectionUITests;
+			sourceTree = "<group>";
+		};
+		24C2036F1B4577E2000C6D2E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				24C2033C1B457639000C6D2E /* ViewController.swift */,
+				24C2036B1B4576A2000C6D2E /* NextViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		24C203701B4577EB000C6D2E /* Animator */ = {
+			isa = PBXGroup;
+			children = (
+				24C2036D1B45776D000C6D2E /* CustomAnimator.swift */,
+			);
+			name = Animator;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,7 +281,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				24C203431B457639000C6D2E /* CustomTransitionCollection.xcdatamodeld in Sources */,
+				24C2036C1B4576A2000C6D2E /* NextViewController.swift in Sources */,
 				24C2033D1B457639000C6D2E /* ViewController.swift in Sources */,
+				24C2036E1B45776D000C6D2E /* CustomAnimator.swift in Sources */,
 				24C2033B1B457639000C6D2E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
