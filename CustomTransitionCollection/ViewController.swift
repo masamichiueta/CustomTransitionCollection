@@ -38,6 +38,10 @@ extension ViewController: UINavigationControllerDelegate {
     
     func navigationController(navigationController: UINavigationController, animationControllerForOperation operation: UINavigationControllerOperation, fromViewController fromVC: UIViewController, toViewController toVC: UIViewController) -> UIViewControllerAnimatedTransitioning? {
         
+        if toVC is TableViewController {
+            return nil
+        }
+        
         switch(operation) {
         case .Push:
             animator.type = .Push
