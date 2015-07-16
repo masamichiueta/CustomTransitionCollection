@@ -21,7 +21,7 @@
 		24C203531B457639000C6D2E /* CustomTransitionCollectionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24C203521B457639000C6D2E /* CustomTransitionCollectionTests.swift */; };
 		24C2035E1B457639000C6D2E /* CustomTransitionCollectionUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24C2035D1B457639000C6D2E /* CustomTransitionCollectionUITests.swift */; };
 		24C2036C1B4576A2000C6D2E /* CustomNavigationSecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24C2036B1B4576A2000C6D2E /* CustomNavigationSecondViewController.swift */; };
-		24C2036E1B45776D000C6D2E /* CustomAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24C2036D1B45776D000C6D2E /* CustomAnimator.swift */; };
+		24C2036E1B45776D000C6D2E /* CustomNavigationAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24C2036D1B45776D000C6D2E /* CustomNavigationAnimator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,7 +62,7 @@
 		24C2035D1B457639000C6D2E /* CustomTransitionCollectionUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTransitionCollectionUITests.swift; sourceTree = "<group>"; };
 		24C2035F1B457639000C6D2E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		24C2036B1B4576A2000C6D2E /* CustomNavigationSecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomNavigationSecondViewController.swift; sourceTree = "<group>"; };
-		24C2036D1B45776D000C6D2E /* CustomAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomAnimator.swift; sourceTree = "<group>"; };
+		24C2036D1B45776D000C6D2E /* CustomNavigationAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomNavigationAnimator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,7 +94,7 @@
 			isa = PBXGroup;
 			children = (
 				243892D81B4AD127005C4CCE /* CustomNavigation.storyboard */,
-				24C2036D1B45776D000C6D2E /* CustomAnimator.swift */,
+				24C2036D1B45776D000C6D2E /* CustomNavigationAnimator.swift */,
 				24C2033C1B457639000C6D2E /* CustomNavigationFirstViewController.swift */,
 				24C2036B1B4576A2000C6D2E /* CustomNavigationSecondViewController.swift */,
 			);
@@ -318,7 +318,7 @@
 				243892DC1B4AD1E4005C4CCE /* TableViewController.swift in Sources */,
 				24C2036C1B4576A2000C6D2E /* CustomNavigationSecondViewController.swift in Sources */,
 				24C2033D1B457639000C6D2E /* CustomNavigationFirstViewController.swift in Sources */,
-				24C2036E1B45776D000C6D2E /* CustomAnimator.swift in Sources */,
+				24C2036E1B45776D000C6D2E /* CustomNavigationAnimator.swift in Sources */,
 				24C2033B1B457639000C6D2E /* AppDelegate.swift in Sources */,
 				243892DF1B4AD4CB005C4CCE /* CustomTransitionFirstViewController.swift in Sources */,
 			);

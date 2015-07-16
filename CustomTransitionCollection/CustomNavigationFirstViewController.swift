@@ -10,7 +10,7 @@ import UIKit
 
 class CustomNavigationFirstViewController: UIViewController {
     
-    let animator = CustomAnimator()
+    let animator = CustomNavigationAnimator()
 
 
     override func viewDidLoad() {
