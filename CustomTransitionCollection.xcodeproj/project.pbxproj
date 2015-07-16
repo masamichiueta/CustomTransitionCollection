@@ -146,14 +146,13 @@
 		24C203391B457639000C6D2E /* CustomTransitionCollection */ = {
 			isa = PBXGroup;
 			children = (
-				242F27741B57A1DF005F0BCA /* CustomTransition */,
-				242F27731B57A1CC005F0BCA /* CustomNavigation */,
-				243892DD1B4AD252005C4CCE /* Storyboard */,
 				24C2033A1B457639000C6D2E /* AppDelegate.swift */,
 				24C203441B457639000C6D2E /* Assets.xcassets */,
-				24C2036F1B4577E2000C6D2E /* Controller */,
+				242F27731B57A1CC005F0BCA /* CustomNavigation */,
+				242F27741B57A1DF005F0BCA /* CustomTransition */,
 				24C203411B457639000C6D2E /* CustomTransitionCollection.xcdatamodeld */,
 				24C203491B457639000C6D2E /* Info.plist */,
+				243892DD1B4AD252005C4CCE /* Storyboard */,
 				243892DB1B4AD1E4005C4CCE /* TableViewController.swift */,
 			);
 			path = CustomTransitionCollection;
@@ -175,13 +174,6 @@
 				24C2035F1B457639000C6D2E /* Info.plist */,
 			);
 			path = CustomTransitionCollectionUITests;
-			sourceTree = "<group>";
-		};
-		24C2036F1B4577E2000C6D2E /* Controller */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

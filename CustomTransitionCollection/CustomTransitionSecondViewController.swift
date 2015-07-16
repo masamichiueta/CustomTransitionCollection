@@ -10,6 +10,14 @@ import UIKit
 
 class CustomTransitionSecondViewController: UIViewController {
 
+    @IBOutlet weak var firstStackView: UIStackView!
+    @IBOutlet weak var thirdStackView: UIStackView!
+    @IBOutlet weak var fifthStackView: UIStackView!
+    
+    @IBOutlet weak var secondStackView: UIStackView!
+    @IBOutlet weak var fourthStackView: UIStackView!
+    @IBOutlet weak var sixthStackView: UIStackView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
