@@ -1,5 +1,5 @@
 //
-//  CustomAnimator.swift
+//  CustomNavigationAnimator.swift
 //  CustomTransitionCollection
 //
 //  Created by UetaMasamichi on 2015/07/02.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class CustomAnimator: NSObject, UIViewControllerAnimatedTransitioning {
+class CustomNavigationAnimator: NSObject, UIViewControllerAnimatedTransitioning {
     var type: UINavigationControllerOperation = .Push
     
     func transitionDuration(transitionContext: UIViewControllerContextTransitioning?) -> NSTimeInterval {
@@ -31,9 +31,7 @@ class CustomAnimator: NSObject, UIViewControllerAnimatedTransitioning {
             toView.transform = offsetTop
         }
         
-        
         containerView.addSubview(toView)
-        containerView.addSubview(fromView)
         
         let duration = transitionDuration(transitionContext)
         

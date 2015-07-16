@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  CustomNavigationFirstViewController.swift
 //  CustomTransitionCollection
 //
 //  Created by UetaMasamichi on 2015/07/02.
@@ -8,9 +8,9 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class CustomNavigationFirstViewController: UIViewController {
     
-    let animator = CustomAnimator()
+    let animator = CustomNavigationAnimator()
 
 
     override func viewDidLoad() {
@@ -34,9 +34,13 @@ class ViewController: UIViewController {
 
 }
 
-extension ViewController: UINavigationControllerDelegate {
+extension CustomNavigationFirstViewController: UINavigationControllerDelegate {
     
     func navigationController(navigationController: UINavigationController, animationControllerForOperation operation: UINavigationControllerOperation, fromViewController fromVC: UIViewController, toViewController toVC: UIViewController) -> UIViewControllerAnimatedTransitioning? {
+        
+        if toVC is TableViewController {
+            return nil
+        }
         
         switch(operation) {
         case .Push:
