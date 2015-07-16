@@ -40,10 +40,10 @@
             </objects>
             <point key="canvasLocation" x="1687" y="905"/>
         </scene>
-        <!--Next View Controller-->
+        <!--Custom Navigation Second View Controller-->
         <scene sceneID="hk2-FR-z4Y">
             <objects>
-                <viewController id="vGN-gV-gXA" customClass="NextViewController" customModule="CustomTransitionCollection" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="vGN-gV-gXA" customClass="CustomNavigationSecondViewController" customModule="CustomTransitionCollection" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="5Vr-EB-K5Z"/>
                         <viewControllerLayoutGuide type="bottom" id="nY2-9I-SKF"/>

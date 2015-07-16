@@ -4,10 +4,10 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8124.4"/>
     </dependencies>
     <scenes>
-        <!--First View Controller-->
+        <!--Custom Transition First View Controller-->
         <scene sceneID="ysk-a2-O7Y">
             <objects>
-                <viewController id="50F-Le-Pa3" customClass="FirstViewController" customModule="CustomTransitionCollection" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="50F-Le-Pa3" customClass="CustomTransitionFirstViewController" customModule="CustomTransitionCollection" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="iBl-el-05s"/>
                         <viewControllerLayoutGuide type="bottom" id="iON-Gl-fjS"/>
@@ -42,10 +42,10 @@
             </objects>
             <point key="canvasLocation" x="1772" y="1461"/>
         </scene>
-        <!--Second View Controller-->
+        <!--Custom Transition Second View Controller-->
         <scene sceneID="5Fl-8n-Cfr">
             <objects>
-                <viewController id="tVn-6j-eJa" customClass="SecondViewController" customModule="CustomTransitionCollection" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="tVn-6j-eJa" customClass="CustomTransitionSecondViewController" customModule="CustomTransitionCollection" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="cPl-N9-OrP"/>
                         <viewControllerLayoutGuide type="bottom" id="rdQ-cn-T3l"/>
