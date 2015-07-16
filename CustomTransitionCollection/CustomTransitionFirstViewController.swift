@@ -9,6 +9,8 @@
 import UIKit
 
 class CustomTransitionFirstViewController: UIViewController {
+    
+    let animator = CustomTransitionAnimator()
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -36,4 +38,19 @@ class CustomTransitionFirstViewController: UIViewController {
     }
     */
 
+}
+
+extension CustomTransitionFirstViewController: UIViewControllerTransitioningDelegate {
+    
+    func animationControllerForPresentedController(presented: UIViewController, presentingController presenting: UIViewController, sourceController source: UIViewController) -> UIViewControllerAnimatedTransitioning? {
+        
+        return animator
+        
+    }
+    
+    func animationControllerForDismissedController(dismissed: UIViewController) -> UIViewControllerAnimatedTransitioning? {
+        
+        return animator
+    }
+    
 }
