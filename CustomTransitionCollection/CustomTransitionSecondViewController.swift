@@ -1,5 +1,5 @@
 //
-//  FirstViewController.swift
+//  CustomTransitionSecondViewController.swift
 //  CustomTransitionCollection
 //
 //  Created by UetaMasamichi on 2015/07/07.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class FirstViewController: UIViewController {
+class CustomTransitionSecondViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -19,10 +19,6 @@ class FirstViewController: UIViewController {
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
-    }
-    
-    @IBAction func unwindToFirstViewController(segue: UIStoryboardSegue) {
-        
     }
     
 

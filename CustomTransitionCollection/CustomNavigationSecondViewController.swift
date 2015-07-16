@@ -1,5 +1,5 @@
 //
-//  NextViewController.swift
+//  CustomNavigationSecondViewController.swift
 //  CustomTransitionCollection
 //
 //  Created by UetaMasamichi on 2015/07/02.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class NextViewController: UIViewController {
+class CustomNavigationSecondViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
