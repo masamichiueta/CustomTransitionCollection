@@ -31,9 +31,7 @@ class CustomAnimator: NSObject, UIViewControllerAnimatedTransitioning {
             toView.transform = offsetTop
         }
         
-        
         containerView.addSubview(toView)
-        containerView.addSubview(fromView)
         
         let duration = transitionDuration(transitionContext)
         
