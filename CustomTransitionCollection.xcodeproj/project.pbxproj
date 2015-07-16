@@ -13,6 +13,10 @@
 		243892DC1B4AD1E4005C4CCE /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 243892DB1B4AD1E4005C4CCE /* TableViewController.swift */; };
 		243892DF1B4AD4CB005C4CCE /* CustomTransitionFirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 243892DE1B4AD4CB005C4CCE /* CustomTransitionFirstViewController.swift */; };
 		243892E11B4AD502005C4CCE /* CustomTransitionSecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 243892E01B4AD502005C4CCE /* CustomTransitionSecondViewController.swift */; };
+		244FBA1A1B57F49F00C98A58 /* InteractiveTransition.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 244FBA181B57F49F00C98A58 /* InteractiveTransition.storyboard */; };
+		244FBA1C1B57F50B00C98A58 /* InteractiveTransitionFirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 244FBA1B1B57F50B00C98A58 /* InteractiveTransitionFirstViewController.swift */; };
+		244FBA1E1B57F51700C98A58 /* InteractiveTransitionSecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 244FBA1D1B57F51700C98A58 /* InteractiveTransitionSecondViewController.swift */; };
+		244FBA201B57F52600C98A58 /* InteractiveTransitionAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 244FBA1F1B57F52600C98A58 /* InteractiveTransitionAnimator.swift */; };
 		24C2033B1B457639000C6D2E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24C2033A1B457639000C6D2E /* AppDelegate.swift */; };
 		24C2033D1B457639000C6D2E /* CustomNavigationFirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24C2033C1B457639000C6D2E /* CustomNavigationFirstViewController.swift */; };
 		24C203401B457639000C6D2E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24C2033E1B457639000C6D2E /* Main.storyboard */; };
@@ -49,6 +53,10 @@
 		243892DB1B4AD1E4005C4CCE /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 		243892DE1B4AD4CB005C4CCE /* CustomTransitionFirstViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTransitionFirstViewController.swift; sourceTree = "<group>"; };
 		243892E01B4AD502005C4CCE /* CustomTransitionSecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTransitionSecondViewController.swift; sourceTree = "<group>"; };
+		244FBA191B57F49F00C98A58 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/InteractiveTransition.storyboard; sourceTree = "<group>"; };
+		244FBA1B1B57F50B00C98A58 /* InteractiveTransitionFirstViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InteractiveTransitionFirstViewController.swift; sourceTree = "<group>"; };
+		244FBA1D1B57F51700C98A58 /* InteractiveTransitionSecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InteractiveTransitionSecondViewController.swift; sourceTree = "<group>"; };
+		244FBA1F1B57F52600C98A58 /* InteractiveTransitionAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InteractiveTransitionAnimator.swift; sourceTree = "<group>"; };
 		24C203371B457639000C6D2E /* CustomTransitionCollection.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomTransitionCollection.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		24C2033A1B457639000C6D2E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		24C2033C1B457639000C6D2E /* CustomNavigationFirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNavigationFirstViewController.swift; sourceTree = "<group>"; };
@@ -123,6 +131,17 @@
 			name = Storyboard;
 			sourceTree = "<group>";
 		};
+		244FBA171B57EF1200C98A58 /* InteractiveTransition */ = {
+			isa = PBXGroup;
+			children = (
+				244FBA181B57F49F00C98A58 /* InteractiveTransition.storyboard */,
+				244FBA1B1B57F50B00C98A58 /* InteractiveTransitionFirstViewController.swift */,
+				244FBA1D1B57F51700C98A58 /* InteractiveTransitionSecondViewController.swift */,
+				244FBA1F1B57F52600C98A58 /* InteractiveTransitionAnimator.swift */,
+			);
+			name = InteractiveTransition;
+			sourceTree = "<group>";
+		};
 		24C2032E1B457639000C6D2E = {
 			isa = PBXGroup;
 			children = (
@@ -146,6 +165,7 @@
 		24C203391B457639000C6D2E /* CustomTransitionCollection */ = {
 			isa = PBXGroup;
 			children = (
+				244FBA171B57EF1200C98A58 /* InteractiveTransition */,
 				24C2033A1B457639000C6D2E /* AppDelegate.swift */,
 				24C203441B457639000C6D2E /* Assets.xcassets */,
 				242F27731B57A1CC005F0BCA /* CustomNavigation */,
@@ -283,6 +303,7 @@
 				24C203481B457639000C6D2E /* LaunchScreen.storyboard in Resources */,
 				243892DA1B4AD128005C4CCE /* CustomNavigation.storyboard in Resources */,
 				24C203451B457639000C6D2E /* Assets.xcassets in Resources */,
+				244FBA1A1B57F49F00C98A58 /* InteractiveTransition.storyboard in Resources */,
 				24C203401B457639000C6D2E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -311,11 +332,14 @@
 				243892E11B4AD502005C4CCE /* CustomTransitionSecondViewController.swift in Sources */,
 				24C203431B457639000C6D2E /* CustomTransitionCollection.xcdatamodeld in Sources */,
 				243892DC1B4AD1E4005C4CCE /* TableViewController.swift in Sources */,
+				244FBA1C1B57F50B00C98A58 /* InteractiveTransitionFirstViewController.swift in Sources */,
 				24C2036C1B4576A2000C6D2E /* CustomNavigationSecondViewController.swift in Sources */,
+				244FBA1E1B57F51700C98A58 /* InteractiveTransitionSecondViewController.swift in Sources */,
 				242F27761B57A578005F0BCA /* CustomTransitionAnimator.swift in Sources */,
 				24C2033D1B457639000C6D2E /* CustomNavigationFirstViewController.swift in Sources */,
 				24C2036E1B45776D000C6D2E /* CustomNavigationAnimator.swift in Sources */,
 				24C2033B1B457639000C6D2E /* AppDelegate.swift in Sources */,
+				244FBA201B57F52600C98A58 /* InteractiveTransitionAnimator.swift in Sources */,
 				243892DF1B4AD4CB005C4CCE /* CustomTransitionFirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -366,6 +390,14 @@
 				243892D91B4AD127005C4CCE /* Base */,
 			);
 			name = CustomNavigation.storyboard;
+			sourceTree = "<group>";
+		};
+		244FBA181B57F49F00C98A58 /* InteractiveTransition.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				244FBA191B57F49F00C98A58 /* Base */,
+			);
+			name = InteractiveTransition.storyboard;
 			sourceTree = "<group>";
 		};
 		24C2033E1B457639000C6D2E /* Main.storyboard */ = {
