@@ -42,12 +42,24 @@ extension InteractiveTransitionFirstViewController: UIViewControllerTransitionin
     
     func animationControllerForPresentedController(presented: UIViewController, presentingController presenting: UIViewController, sourceController source: UIViewController) -> UIViewControllerAnimatedTransitioning? {
         
-        return nil
+        animator.presenting = true
+        return animator
     }
     
     func animationControllerForDismissedController(dismissed: UIViewController) -> UIViewControllerAnimatedTransitioning? {
         
-        return nil
+        animator.presenting = false
+        return animator
+    }
+    
+    func interactionControllerForPresentation(animator: UIViewControllerAnimatedTransitioning) -> UIViewControllerInteractiveTransitioning? {
+        
+        return self.animator.interactive ? self.animator : nil
+    }
+    
+    func interactionControllerForDismissal(animator: UIViewControllerAnimatedTransitioning) -> UIViewControllerInteractiveTransitioning? {
+        
+        return self.animator.interactive ? self.animator : nil
     }
     
 }
